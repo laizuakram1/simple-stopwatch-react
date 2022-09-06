@@ -1,5 +1,5 @@
 {
-  "homepage": "https://laizuakram1.github.io/simple-stopwatch-react",
+  "homepage": "https://laizuakram1.github.io",
   "name": "simple-stopwatch",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "daisyui": "^2.24.2",
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.1.10",
+    "gh-pages": "^4.0.0",
     "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
