@@ -1,5 +1,5 @@
 body {
-    background:#2C3E50;
+    background:#ddd;
   }
   
   * {
@@ -16,14 +16,22 @@ body {
     margin: 30px auto;
   }
   
+  
   .clock-holder {
     width: 100%;
-    background: #fff;
+    background:rgb(255, 255, 255);
     margin: 30px auto;
     position: relative;
+    top:30px;
+    border-radius:5px;
+    box-shadow: 5px 5px 20px -10px;
   }
 
-  
+  .clock-icon{
+    color:#00ABA9;
+    font-size: 80px;
+    margin-bottom: 15px;
+  }
   
   
   .stopwatch {
@@ -46,6 +54,7 @@ body {
     margin-top: 30px;
     margin-left: 5px;
     border: none;
+    border-radius: 4px;
     padding: 12px 20px;
     font-size: 16px;
     text-transform: uppercase;

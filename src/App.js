@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import BtnComponent from './Components/BtnComponents';
 import DisplayComponent from './Components/DisplayComponents';
+import { FaClock } from 'react-icons/fa';
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
     <div className="main-section">
     <div className="clock-holder">
          <div className="stopwatch">
+         <p className='clock-icon'> <FaClock /> </p>
               <DisplayComponent time={time}/>
               <BtnComponent status={status} resume={resume} reset={reset} stop={stop} start={start}/>
          </div>
